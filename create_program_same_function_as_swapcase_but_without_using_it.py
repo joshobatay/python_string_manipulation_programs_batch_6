@@ -14,5 +14,7 @@ for char in entered_string:
         # 32 is subtracted to convert to upper case
     elif "a" <= char <= "z":
         result += chr(ord(char) - 32)
+    else:
+        result += char # Does not change the character if it is not a letter
     
 # Output the string with reversed casing
