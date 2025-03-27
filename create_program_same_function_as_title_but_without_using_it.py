@@ -10,9 +10,12 @@ words = entered_string.split()
 result = ""
 
 # Process the entered string to capitalize the first letter of each word
-
-     
+for word in words:
+    modified_word = word[0].upper() + word[1:].lower()
+    result += modified_word + " "
+ 
 # Remove the trailing spaces from the result
-
+result = result.strip()
 
 # Output the string with the first letter of each word capitalized
+print(f"String with first letter of each word capitalized:\n{result}")
