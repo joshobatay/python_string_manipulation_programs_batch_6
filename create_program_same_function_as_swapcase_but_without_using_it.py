@@ -9,7 +9,7 @@ result = ""
 # Process the entered string to reverse the casing of each character
 for char in entered_string:
     if "A" <= char <= "Z":
-        # ord converts character to ASCII, and 32 is added to convert to lower case, and chr converts ASCII chars to strings
+        # 32 is added to convert to lower case
         result += chr(ord(char) + 32) 
         # 32 is subtracted to convert to upper case
     elif "a" <= char <= "z":
@@ -18,3 +18,4 @@ for char in entered_string:
         result += char # Does not change the character if it is not a letter
     
 # Output the string with reversed casing
+print(f"String with reversed casing:\n{result}")
