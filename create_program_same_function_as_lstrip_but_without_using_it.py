@@ -7,6 +7,7 @@ import textwrap
 entered_string = input("Enter a string with spaces at the beginning: ")
 
 # Process entered string to remove the spaces at the beginning
-
+cleaned_string = textwrap.dedent(entered_string)
 
 # Output the string without spaces at the beginning
+print(f"Cleaned String:\n{cleaned_string}")
