@@ -7,6 +7,10 @@ entered_string = input("Enter a string: ")
 suffix = input("Enter a string to check if the entered string ends with: ")
 
 # Process the entered string to check if it ends with the parameter string
+if entered_string[-len(suffix):] == suffix:
+    # Output the result if the string ends with the parameter string or not
+    print(f"The entered string ends with the suffix: {suffix}")
+else:
+    print(f"The entered string does not end with {suffix}")
 
 
-# Output the result if the string ends with the parameter string or not
