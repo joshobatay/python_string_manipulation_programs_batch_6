@@ -1,8 +1,10 @@
 # Prog06. ljust() add space characters at the end of the string to complete the number of characters specifies in function parameter. Create a program that do the same functionality without using ljust() function.
 
 # Ask user to enter a string
+entered_string = input("Enter a string: ")
 
 # Ask user width of the string
+preferred_width = int(Input('Enter width of the string:'))
 
 # Process the entered string to add spaces at the end to complete the width
 
