@@ -13,4 +13,4 @@ else:
     modified_string = entered_string
 
 # Output the string with spaces at the end to complete the width
-print(f"Modified String:\n|{modified_string}|")
+print(f"Modified String:\n|{modified_string}|") # Straight lines to visualize added spaces at the end
