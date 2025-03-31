@@ -4,6 +4,10 @@
 entered_string = input("Enter a string: ")
 
 # Process entered_string to check if it is lower case
-
-# Output the result
+for char in entered_string:
+    if not ("a" <= char <= "z"):
+        print("String is not lower case.") # Output the result
+        break
+else:
+    print("String is lower case.") # Output the result
 
