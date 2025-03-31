@@ -7,8 +7,11 @@ entered_string = input("Enter a string: ")
 suffix = input("Enter a suffix to be removed: ")
 
 # Process entered string to remove the suffix
-
 if entered_string[-len(suffix):] == suffix:
     modified_string = entered_string[:-len(suffix)]
-
-# Output the string with the suffix removed
+    
+    # Output the string with the suffix removed
+    print(modified_string) 
+else:
+    # Output the string without any changes
+    print(entered_string) 
