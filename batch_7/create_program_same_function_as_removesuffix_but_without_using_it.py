@@ -11,7 +11,7 @@ if entered_string[-len(suffix):] == suffix:
     modified_string = entered_string[:-len(suffix)]
     
     # Output the string with the suffix removed
-    print(modified_string) 
+    print(modified_string)
 else:
     # Output the string without any changes
-    print(entered_string) 
+    print(entered_string)
