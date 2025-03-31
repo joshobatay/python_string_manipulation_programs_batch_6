@@ -10,8 +10,8 @@ suffix = input("Enter a suffix to be removed: ")
 if entered_string[-len(suffix):] == suffix:
     modified_string = entered_string[:-len(suffix)]
     
-    # Output the string with the suffix removed
-    print(modified_string)
 else:
-    # Output the string without any changes
-    print(entered_string)
+    modified_string = entered_string # If the suffix does not match, keep the original string
+    
+# Output the modified string
+print(modified_string)
